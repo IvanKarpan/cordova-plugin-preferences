@@ -20,12 +20,12 @@
   function Preferences() {};
   
   // Returns preference value by name
-  Preferences.prototype.getPreference = function(name, successCallback, failureCallback) {
+  Preferences.prototype.get = function(name, successCallback, failureCallback) {
     return cordova.exec(successCallback, failureCallback, 'Preferences', 'getPreference', [name]);
   };
   
   // Sets preference value by name
-  Preferences.prototype.setPreference = function(name, value, successCallback, failureCallback) {
+  Preferences.prototype.set = function(name, value, successCallback, failureCallback) {
     return cordova.exec(successCallback, failureCallback, 'Preferences', 'setPreference', [name, value]);
   };
   
