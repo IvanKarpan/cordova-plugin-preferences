@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-preferences",
+  "version": "1.0.0",
+  "description": "Preferences plugin for Cordova",
+  "main": "www/preferences.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanKarpan/cordova-plugin-preferences.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "preferences",
+    "ios",
+    "phonegap"
+  ],
+  "author": {
+    "name": "Ivan Karpan",
+    "email": "ivan.karpan@gmail.com",
+    "url": "http://ivankarpan.com"
+  },
+  "license": "Apache License, Version 2.0",
+  "bugs": {
+    "url": "https://github.com/IvanKarpan/cordova-plugin-preferences/issues"
+  },
+  "homepage": "https://github.com/IvanKarpan/cordova-plugin-preferences"
+}
