@@ -33,7 +33,7 @@
     if (!window.plugins) {
       window.plugins = {};
     }
-    window.plugins.userDefaults = new UserDefaults();
+    window.plugins.preferences = new Preferences();
   };
   
   cordova.addConstructor(Preferences.install);
